@@ -74,3 +74,17 @@ Once all the information is entered correctly, you will immediately receive the 
 For further guides, questions, or support related to the Aztec node, join the official Telegram channel: [Web3Loverz](https://t.me/Web3loverz).
 
 With the steps above, you can now obtain the Apprentice role in the Aztec Discord after waiting some time and providing the required data!
+
+---------------------------
+
+
+Type the following command in this Discord server: /operator start
+After typing the command, Discord will display option fields that look like this:
+address: Your validator address (Ethereum Address)
+block-number: Block number for verification (Block number from Step 1)
+proof: Your sync proof (base64 string from Step 2)
+Then you'll get your Apprentice Role
+
+![439701725-2ae9ff7c-59ba-43ec-9a23-76ef8ccb997c](https://github.com/user-attachments/assets/eeff8d42-06a7-44de-b84b-6fede3a48783)
+
+

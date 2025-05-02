@@ -10,7 +10,7 @@ YELLOW="\033[0;33m"
 BLUE="\033[0;34m"
 MAGENTA="\033[0;35m"
 CYAN="\033[0;36m"
-WHITE="\033[0;37m"
+WHITE="\033[0;37m"main_menu
 LIGHT_GREEN="\033[1;32m"
 LIGHT_CYAN="\033[1;36m"
 LIGHT_YELLOW="\033[1;33m"
@@ -187,4 +187,5 @@ function main_menu() {
   done
 }
 
-main
+main_menu
+

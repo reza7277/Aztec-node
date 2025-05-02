@@ -89,16 +89,15 @@ function install_aztec_node() {
   cat <<EOF > ~/start_aztec_node.sh
 #!/bin/bash
 export PATH=\$PATH:\$HOME/.aztec/bin
-aztec start --node --archiver --sequencer \\ 
-  --network alpha-testnet \\ 
-  --port 8080 \\ 
-  --l1-rpc-urls $L1_RPC_URL \\ 
-  --l1-consensus-host-urls $L1_CONSENSUS_URL \\ 
-  --sequencer.validatorPrivateKey $VALIDATOR_PRIVATE_KEY \\ 
-  --sequencer.coinbase $COINBASE_ADDRESS \\ 
-  --p2p.p2pIp $IP \\ 
-  --p2p.maxTxPoolSize 10000
+aztec start --node --archiver --sequencer \\
+  --network alpha-testnet \\
+  --l1-rpc-urls $L1_RPC_URL \\
+  --l1-consensus-host-urls $L1_CONSENSUS_URL \\
+  --sequencer.validatorPrivateKey $VALIDATOR_PRIVATE_KEY \\
+  --sequencer.coinbase $COINBASE_ADDRESS \\
+  --p2p.p2pIp $IP
 EOF
+
 
   chmod +x ~/start_aztec_node.sh
 

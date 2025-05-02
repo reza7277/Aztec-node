@@ -25,7 +25,7 @@ display_banner() {
 ██║  ██║███████╗███████╗██║  ██║       ██║  ███████╗   ██║     ██║  
 ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝       ╚═╝  ╚══════╝   ╚═╝     ╚═╝  
 "
-    echo "Translated by: Reza"
+    echo "Fixed by: Reza"
     echo "Join us: https://t.me/Web3loverz"
 }
 

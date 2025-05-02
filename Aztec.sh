@@ -29,12 +29,6 @@ display_banner() {
     echo "Join us: https://t.me/Web3loverz"
 }
 
-# Display the banner
-display_banner
-
-# Wait for 3 seconds before continuing
-sleep 3
-
 # Function to update apt
 function update_apt() {
   sudo apt-get update -y
@@ -154,9 +148,8 @@ function check_logs() {
 
 function main_menu() {
   clear
-  echo -e "${LIGHT_CYAN}===============================${RESET}"
-  echo -e "${BOLD}${LIGHT_GREEN}  Script by Airdrop Node${RESET}"
-  echo -e "${LIGHT_CYAN}===============================${RESET}"
+  # Display banner
+  display_banner
   PS3="Select an option: "
   options=("Install Aztec Node" "Check Block Number" "Check Archive Sibling Path" "Add Validator" "Enter Screen to Check Logs" "Exit")
   select opt in "${options[@]}"

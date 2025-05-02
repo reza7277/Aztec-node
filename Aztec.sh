@@ -194,4 +194,4 @@ function main_menu() {
   done
 }
 
-main_menu
+main

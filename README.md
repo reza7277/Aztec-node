@@ -32,7 +32,7 @@ Carefully note this information, as it will be required by the Discord bot later
 
 ### Join the Aztec Discord Server
 
-Join the Aztec Discord Server through the following link: [Aztec Discord](#).
+Join the Aztec Discord Server through the following link: [Aztec Discord](https://discord.com/invite/aztec).
 After obtaining the block number and proof, enter the Aztec Discord server and navigate to the `operators | start-here` channel.
 
 ### Use the Command to Start
@@ -69,6 +69,6 @@ Once all the information is entered correctly, you will immediately receive the 
 
 ### Additional Information
 
-For further guides, questions, or support related to the Aztec node, join the official Telegram channel: [Airdrop Node Telegram](https://t.me/Web3loverz).
+For further guides, questions, or support related to the Aztec node, join the official Telegram channel: [Web3Loverz](https://t.me/Web3loverz).
 
 With the steps above, you can now obtain the Apprentice role in the Aztec Discord after waiting some time and providing the required data!

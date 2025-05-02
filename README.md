@@ -69,6 +69,6 @@ Once all the information is entered correctly, you will immediately receive the 
 
 ### Additional Information
 
-For further guides, questions, or support related to the Aztec node, join the official Telegram channel: [Airdrop Node Telegram]([#](https://t.me/Web3loverz)).
+For further guides, questions, or support related to the Aztec node, join the official Telegram channel: [Airdrop Node Telegram](https://t.me/Web3loverz).
 
 With the steps above, you can now obtain the Apprentice role in the Aztec Discord after waiting some time and providing the required data!

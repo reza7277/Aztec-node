@@ -15,6 +15,26 @@ LIGHT_GREEN="\033[1;32m"
 LIGHT_CYAN="\033[1;36m"
 LIGHT_YELLOW="\033[1;33m"
 
+# Function to display a banner
+display_banner() {
+    echo "
+██████╗ ███████╗███████╗ █████╗     ███████╗██████╗ ███████╗███████╗
+██╔══██╗██╔════╝╚══███╔╝██╔══██╗    ╚════██║╚════██╗╚════██║╚════██║
+██████╔╝█████╗    ███╔╝ ███████║        ██╔╝ █████╔╝    ██╔╝    ██╔╝
+██╔══██╗██╔══╝   ███╔╝  ██╔══██║       ██╔╝ ██╔═══╝    ██╔╝    ██╔╝ 
+██║  ██║███████╗███████╗██║  ██║       ██║  ███████╗   ██║     ██║  
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝       ╚═╝  ╚══════╝   ╚═╝     ╚═╝  
+"
+    echo "Created by: Reza"
+    echo "Join us: https://t.me/Web3loverz"
+}
+
+# Display the banner
+display_banner
+
+# Wait for 3 seconds before continuing
+sleep 3
+
 # Function to update apt
 function update_apt() {
   sudo apt-get update -y

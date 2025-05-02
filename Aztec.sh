@@ -10,7 +10,7 @@ YELLOW="\033[0;33m"
 BLUE="\033[0;34m"
 MAGENTA="\033[0;35m"
 CYAN="\033[0;36m"
-WHITE="\033[0;37m"main_menu
+WHITE="\033[0;37m"
 LIGHT_GREEN="\033[1;32m"
 LIGHT_CYAN="\033[1;36m"
 LIGHT_YELLOW="\033[1;33m"
@@ -89,14 +89,14 @@ function install_aztec_node() {
   cat <<EOF > ~/start_aztec_node.sh
 #!/bin/bash
 export PATH=\$PATH:\$HOME/.aztec/bin
-aztec start --node --archiver --sequencer \\
-  --network alpha-testnet \\
-  --port 8080 \\
-  --l1-rpc-urls $L1_RPC_URL \\
-  --l1-consensus-host-urls $L1_CONSENSUS_URL \\
-  --sequencer.validatorPrivateKey $VALIDATOR_PRIVATE_KEY \\
-  --sequencer.coinbase $COINBASE_ADDRESS \\
-  --p2p.p2pIp $IP \\
+aztec start --node --archiver --sequencer \\ 
+  --network alpha-testnet \\ 
+  --port 8080 \\ 
+  --l1-rpc-urls $L1_RPC_URL \\ 
+  --l1-consensus-host-urls $L1_CONSENSUS_URL \\ 
+  --sequencer.validatorPrivateKey $VALIDATOR_PRIVATE_KEY \\ 
+  --sequencer.coinbase $COINBASE_ADDRESS \\ 
+  --p2p.p2pIp $IP \\ 
   --p2p.maxTxPoolSize 10000
 EOF
 
@@ -146,6 +146,7 @@ function check_logs() {
   main_menu
 }
 
+# Main Menu Function
 function main_menu() {
   clear
   # Display banner
@@ -187,5 +188,5 @@ function main_menu() {
   done
 }
 
+# Start the main menu
 main_menu
-

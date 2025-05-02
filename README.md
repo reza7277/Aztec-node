@@ -1,3 +1,5 @@
+![Screenshot 2025-05-02 193343](https://github.com/user-attachments/assets/040af7bc-ae48-4b5f-a8d9-ebb1ef9426ed)
+
 ### Aztec Node Sequencer Steps
 
 Prepare RPC and Faucet for Aztec Node
